@@ -1,0 +1,155 @@
+*{
+  margin:0;
+  padding:0px;
+  margin:8px 8px;
+}
+
+body {
+ 
+background-image: url('bodybackground.png');
+ /* Full height */
+height: 100%;
+/* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+text-align:center;
+font-size:35px;
+
+}
+
+.head2{
+text-align:center;
+margin:5px;
+padding:15px;
+background:rgb(220,260,100);
+font-size:25px;
+}
+
+h2{
+text-align: center;
+}
+
+h3{
+text-align: center;
+}
+
+
+.Fdndgn {
+  width:100%;
+  height:1100px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content: center;
+  align-content:space-between;
+  gap: 10px;
+  padding: 10px;
+  }
+
+.ph1{
+	display: flex;
+	flex-wrap:nowrap;
+	flex-direction:row;
+	
+}
+
+.ph2{
+	display: flex;
+	flex-wrap:nowrap;
+	flex-direction:row;
+}
+
+input{
+  width:128px;
+  height:30px;
+  text-align:center;
+  font-size:16px;
+  border:none;
+}
+
+#filename{
+ width:320px;
+  height:30px;
+  text-align:center;
+}
+#Rev1{
+ width:150px;
+  height:30px;
+  text-align:center;
+  
+}
+#date1{
+ width:150px;
+  height:30px;
+  text-align:center;
+}
+
+button{
+width:188px;
+height:55px;
+font-size:20px;
+}
+
+
+
+.FDNDTLS {
+  grid-area:  1 / 1;
+  
+    
+}
+
+.Results {
+  grid-area:  1 / 2;
+      
+}
+
+
+.FDNTable{
+  table-layout: fixed ;
+  width: 800px ;
+  border-collapse: collapse ;
+  border: 1px black solid ;
+}
+
+.ButTable{
+  table-layout: fixed ;
+  width: 800px ;
+  border-collapse: collapse ;
+  border: 1px black solid ;
+}
+
+.ali2 {
+  width: 20%;
+  Height:35px;
+  font-size:17px;
+}
+
+td {
+  width: 20%;
+  Height:35px;
+  text-align:center;
+  font-size:17px;
+}
+
+th {
+  width: 20%;
+  Height:35px;
+  text-align:center;
+  font-size:20px;
+}
+
+
+#tbl_exporttable_to_xls{
+	margin-left: auto;
+  	margin-right: auto;
+	
+}
+
+
+
+
+
